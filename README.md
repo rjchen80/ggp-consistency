@@ -10,10 +10,10 @@ This repo contains code to reproduce experiments for the paper:
   
   [Paper](https://gp-seminar-series.github.io/neurips-2022/assets/camera_ready/61.pdf) [Poster](https://gp-seminar-series.github.io/neurips-2022/assets/camera_ready/61_poster.pdf)
 
-### Dependency
-- GPy Library (Gaussian processes framework in Python) [Install](https://github.com/SheffieldML/GPy)
+### Install
+This repo has been developed and tested on Python 3.10. The requirements file `requirements.txt` includes all package dependencies which can be installed by, e.g., `pip` (including the [GPy library](https://github.com/SheffieldML/GPy) for GP utilities).
 
 ### How to run
-- To reproduce experiments on convergence results, as well as counter-example experiment under assumption violation, run the python script: `LfRmse.py`.
+To reproduce experiments on convergence results, as well as the counter-example experiment under violated assumptions, run the python script: `LfRmse.py`.
 
 
